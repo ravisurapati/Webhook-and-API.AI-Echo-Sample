@@ -12,7 +12,6 @@ restService.use(
 );
 
 restService.use(bodyParser.json());
-
 restService.post("/echo", function(req, res) {
   var temp = {
     google: {
